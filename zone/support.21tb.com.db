@@ -1,0 +1,33 @@
+$TTL    3600
+
+@   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
+                2014121366       ; Serial
+                43200   ; Refresh
+                1800    ; Retry
+                2W  ; Expire
+                1200 )  ; Minimum
+
+        IN  NS      21tb-ns1.cneln.net.
+
+support.21tb.com.   IN  MX  10  mx1
+support.21tb.com.   IN  MX  20  mx2
+
+_imap._tcp	SRV	0 1 143 mail
+_submission._tcp	SRV	0 1 587 mail
+
+_imaps._tcp	SRV	0 1 993 mail
+_smtp._tcp	SRV	0 1 25 mail
+_smtps._tcp	SRV	0 1 465 mail
+
+mail    IN      A       122.14.197.4
+mx1     IN      A       122.14.197.4
+mx2     IN      A       122.14.197.5
+monitor	IN	A	122.14.197.4
+perform	IN	A	222.73.189.57
+perf2	IN	A	222.73.189.57
+edm	IN	A	122.14.197.4
+
+default._domainkey.support.21tb.com.	IN	TXT	( "v=DKIM1; k=rsa; "
+	  "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOJGzSZNImKSF8UQW9kSSWgL995jAY003qB/8RH0Gi1XUjFdlzG2ATldHhPNXpWeu/2rTsRzqIUdhiglVpheuPqerXCF7NGkUF3xtO0bQlx5Kpvy+TkR7yzJ5ruHml5AXOLC2QOY4BORAoEsW80j0ajWVXFzLZkZ/IHZjR9p6agwIDAQAB" )
+@	IN	TXT	("v=spf1 ip4:122.14.197.4 ip4:122.14.197.5 -all")
+

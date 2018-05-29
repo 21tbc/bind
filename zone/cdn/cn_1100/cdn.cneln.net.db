@@ -1,0 +1,43 @@
+$TTL    3600
+
+@   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
+                201712665       ; Serial
+                43200   ; Refresh
+                1800    ; Retry
+                2W  ; Expire
+                300 )  ; Minimum
+
+@    IN  NS      21tb-ns1.cneln.net.
+
+stdcourse  IN A  219.153.71.167
+stdcourse	IN	TXT	 "cn_stdcourse_1100"
+
+
+stdmobile  IN A  219.153.71.166
+stdmobile  IN A  219.153.71.167
+stdmobile	IN	TXT	 "cn_stdmobile_1100"
+
+
+stdkcjy  IN A  219.153.71.167
+stdkcjy	IN	TXT	 "cn_stdkcjy_1100"
+
+
+meetingv1  IN A  114.80.115.199
+meetingv1	IN	TXT	 "cn_meetingv1_1100"
+
+
+;stdv3static  IN A  219.153.71.162
+;stdv3static	IN	TXT	 "cn_stdv3static_1100"
+; Jiang Zhifang 2017-11-23
+;stdv3static  IN A  219.153.71.162
+
+; 2018-02-23
+stdv3static  IN A  219.153.71.162
+stdv3static	IN	TXT	 "cn_stdv3static_1100"
+
+; 2018-03-29
+;21tb-file3  IN A  222.180.162.136
+21tb-file3  IN A  222.180.163.136
+21tb-file3	IN	TXT	 "cn_21tb-file3_1100"
+
+

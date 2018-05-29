@@ -1,0 +1,12 @@
+$TTL    3600
+
+@   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
+                2015100816       ; Serial
+                43200   ; Refresh
+                1800    ; Retry
+                2W  ; Expire
+                1200 )  ; Minimum
+
+        IN  NS      21tb-ns1.cneln.net.
+
+www	IN	A	122.14.197.43

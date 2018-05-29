@@ -1,0 +1,52 @@
+$TTL    3600
+
+@   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
+                2016123630       ; Serial
+                43200   ; Refresh
+                1800    ; Retry
+                2W  ; Expire
+                300 )  ; Minimum
+
+@    IN  NS      21tb-ns1.cneln.net.
+
+;nonstdcourse  IN A  113.207.32.84
+nonstdcourse  IN A  	58.144.142.244
+nonstdcourse	IN	TXT	 "cn_nonstdcourse_5200"
+
+
+mainsite  IN A  123.103.18.6
+mainsite	IN	TXT	 "cn_mainsite_5200"
+
+
+; "21tb-file3" is added by Jiang Zhifang 2017-06-01
+21tb-file3  IN A  58.144.142.243
+21tb-file3      IN      TXT      "cn_21tb-file3_5200"
+
+file3-upload  IN A  58.144.142.243
+file3-upload      IN      TXT      "cn_file3-upload_5200"
+
+
+; 2017-11-21 Jiang Zhifang
+21tb-convert3  IN A  58.144.142.243
+21tb-convert3      IN      TXT      "cn_21tb-convert3_5200"
+
+21tb-file4  IN A  	58.144.142.244
+21tb-file4	IN	TXT	 "cn_21tb-file4_5200"
+
+file4-upload  IN A  	58.144.142.244
+file4-upload	IN	TXT	 "cn_file4-upload_5200"
+
+
+21tb-file5  IN A  	58.144.142.245
+21tb-file5	IN	TXT	 "cn_21tb-file5_5200"
+
+file5-upload  IN A  	58.144.142.245
+file5-upload	IN	TXT	 "cn_file5-upload_5200"
+
+; 2017-11-21 Jiang Zhifang
+21tb-convert5  IN A  	58.144.142.245
+21tb-convert5	IN	TXT	 "cn_21tb-convert5_5200"
+
+; 2018-04-07
+21tb-szzghfile  IN A  58.144.142.245
+21tb-szzghfile  IN      TXT      "cn_szzghfile_5200"

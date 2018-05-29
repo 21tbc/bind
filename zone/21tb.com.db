@@ -1,0 +1,209 @@
+$TTL    3600
+
+@   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
+                2017025345       ; Serial
+                43200   ; Refresh
+                1800    ; Retry
+                2W  ; Expire
+                1200 )  ; Minimum
+
+        IN  NS      21tb-ns1.cneln.net.
+cdn     IN  NS      21tb-ns1.cneln.net.
+support	IN  NS      21tb-ns1.cneln.net.
+training	IN  NS      21tb-ns1.cneln.net.
+vketool	IN  NS      21tb-ns1.cneln.net.
+public	IN  NS      21tb-ns1.cneln.net.
+yfyang	IN  NS      21tb-ns1.cneln.net.
+
+21tb.com.   IN  MX  10  mx1
+21tb.com.   IN  MX  20  mx2
+
+_imap._tcp	SRV	0 1 143 mail
+_imaps._tcp	SRV	0 1 993 mail
+_smtp._tcp	SRV	0 1 25 mail
+_smtps._tcp	SRV	0 1 465 mail
+default._domainkey.21tb.com.    IN  TXT ( "v=DKIM1; k=rsa; "
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDq05m7h/7eSMNkmW7UsObP5fu6iFKMG+9dfc3tF4hZaAen5NGnUeEjZ7xaaoeTvBFkamGlov0LOLau+hJJ0ad+vVzviOP4Gu/bUxKRrgjs5rTEr4mhSwSEY9EneUKTlUIHJ/pCwduoa86tQMOg0iiButWkKylz4n4r94j9mJ081wIDAQAB" )
+@	IN	TXT	("v=spf1 ip4:122.14.197.4 ip4:122.14.197.5 -all")
+
+mail	IN	A	122.14.197.4
+; "21tb-kcjy" is added by Jiang Zhifang 2017-05-03
+21tb-kcjy    IN      CNAME   mail
+imap    IN      CNAME   mail
+smtp    IN      CNAME   mail
+imaps    IN      CNAME   mail
+smtps    IN      CNAME   mail
+mx1	IN	A	122.14.197.4
+mx2	IN	A	122.14.197.5
+
+oa	IN	A	122.14.197.46
+;app	IN	A	222.73.189.57
+app	IN	A	61.191.199.70
+tbcsvn	IN	A	222.73.189.57
+lbox	IN	A	123.103.18.67
+;demooa	IN	A	101.95.155.238
+weixin	IN	A	218.242.132.88
+tbcsvn	IN	A	101.95.155.238
+project	IN	A	120.132.36.195
+;count	IN	A	123.103.18.69
+hongkong        IN      A       202.65.192.179
+
+; "www" is modified by Jiang Zhifang 2017-04-18
+;www	IN	A	122.14.197.12
+earlier	IN	A	122.14.197.12
+;www	IN	A	123.103.18.6
+www	IN	CNAME	21tb.com.ls104.faipod.com.
+elearning	IN	CNAME	www
+
+;shop	IN	A	123.103.18.6
+e	IN	A	123.103.18.8
+crm	IN	A	123.103.18.59
+lesson	IN	A	122.14.197.35
+blog	IN	A	123.103.18.8
+v5      IN      A       122.14.197.6
+gitlab  IN      A       180.167.109.158
+;v4	IN	A	123.103.18.6
+;fuzhuang	IN	A	123.103.18.6
+;elp	IN	A	123.103.18.6
+baetc.xuemall   IN      A       123.103.18.6
+;ibmg	IN	A	123.103.18.6
+hjzy	IN	A	118.244.12.87
+;tbctest	IN	A	123.103.18.6
+wechat	IN	A	123.103.18.69
+forlink	IN	A	123.103.18.69
+pmp	IN	A	122.14.197.35
+
+yufa    IN      A       123.103.18.69
+;yufa	IN	CNAME	yufa.21tb.com.w.kunluncan.com.
+
+yufa1	IN	A	123.103.18.70
+;yufa1	IN	CNAME	yufa1.21tb.com.w.alikunlun.com.
+yufa1-upload    IN      A       123.103.18.70
+
+; "yufa2" is added by Jiang Zhifang 2017-06-05
+yufa2           IN      A       123.103.18.21
+;yufa2	IN      CNAME   yufa2.21tb.com.w.alikunlun.com.
+yufa2-upload            IN      A       123.103.18.21
+
+hf	IN	A	61.191.199.70
+; The TXT record for 'hf' is added by Jiang Zhifang 2017-04-21.
+hf	IN	TXT	("2017042000000045hqv712ndp15tvgi507v6egxtkmhn8d0ksy9kl3otp67j7599")
+webim	IN	A	123.103.18.75
+mingshi	IN	A	122.14.197.35
+; 2018-04-23, commented by Jiang Zhifang
+cloud	IN	A	61.191.199.70
+; The TXT record for 'cloud' is added by Jiang Zhifang 2017-04-21
+cloud	IN	TXT	("201704200000002ormvbl9mhpr6b65b3yf9k0yj6dkplmb9awl8frn0qcfni3v3f")
+
+; Added by Jiang Zhifang 2018-03-12
+cloud-upload	IN	A	61.191.199.70
+
+c	IN	A	61.191.199.70
+21tb-eim IN     A       123.103.18.66
+;piwik IN     A       123.103.18.66
+*.tbctest	IN	A	123.103.18.6
+*	IN	A	123.103.18.6
+21tb-analysis	IN	A	123.103.18.88
+xuemall	IN	A	120.26.130.77
+
+;21tb-file4-rmainsite	IN	A	120.132.36.200
+21tb-file4-rhk	IN	A	202.65.192.179
+
+;om	IN	A	120.132.46.59
+om	IN	A	122.14.197.16
+;erp	IN	A	120.132.46.59
+erp	IN	A	122.14.197.16
+
+
+
+; "21tb-file3" is added by Jiang Zhifang 2017-06-01
+;21tb-file3      IN      CNAME   21tb-file3.cdn
+21tb-file3      IN      CNAME   21tb-file3.21tb.com.w.kunlunca.com.
+
+21tb-file4-rmainsite	IN	CNAME	21tb-file4.cdn
+
+;21tb-file4	IN	CNAME	21tb-file4.cdn
+21tb-file4     IN      CNAME   21tb-file4.21tb.com.w.kunlunca.com.
+
+;21tb-file5      IN      CNAME   21tb-file5.cdn
+21tb-file5      IN      CNAME   21tb-file5.21tb.com.w.kunlunca.com.
+21tb-file4-global	IN	CNAME nonstdcourse.cdn
+
+
+piwik	IN	CNAME	mainsite.cdn
+
+;21tb-static     IN CNAME stdv3static.cdn.cneln.net.
+21tb-static	IN	CNAME	21tb-static.21tb.com.w.kunlunar.com.
+
+;21tb-yufa-static	IN	CNAME stdv3static.cdn.cneln.net.
+; 2017-07-11 Jiang Zhifang
+21tb-yufa-static	IN	A	123.103.18.70
+21tb-static2     IN	A	219.153.71.162
+;21tb.com.	IN	A	122.14.197.12
+21tb.com.	IN	A	123.103.18.6
+
+
+;21tb-rcpxfile	IN	A	219.153.71.163
+21tb-rcpxfile	IN	CNAME	21tb-rcpxfile.21tb.com.w.kunlunso.com.
+
+; 2017-11-21 Jiang Zhifang
+; stop rcpx2
+;21tb-rcpxfile	IN	A	219.153.71.164
+
+; added by Jiang Zhifang 2017-03-13 for "Guangdong YiDong"
+21tb-gmccfile	IN	A	183.230.82.10
+
+; "zj-demo" and "21tb-harvest" are added by Jiang Zhifang 2017-05-19 16:18
+zj-demo		IN	A	123.103.18.40
+21tb-harvest	IN	A	222.180.163.137
+
+
+file3-upload	IN	CNAME	file3-upload.cdn
+file4-upload	IN	CNAME	file4-upload.cdn
+file5-upload	IN	CNAME	file5-upload.cdn
+
+
+; "pre-video-oss" is added by Jiang Zhifang 2017-06-07
+pre-video-oss	IN	CNAME	sunyuqing-test.oss-cn-shanghai.aliyuncs.com.
+
+sunyuqing	IN	CNAME	sunyuqing.21tb.com.w.kunlunca.com.
+
+jianke		IN	CNAME	idv0owq.qiniudns.com.
+
+;jiankeh5		IN	A	222.180.162.132
+jiankeh5		IN	A	123.103.18.6
+
+; 2017-11-21 Jiang Zhifang
+21tb-convert3	IN	CNAME	21tb-convert3.cdn
+21tb-convert5	IN	CNAME	21tb-convert5.cdn
+
+; 2017-12-04 Jiang Zhifang
+szzgh		IN	A	122.14.197.44
+
+; 2018-04-07
+21tb-szzghfile	IN	CNAME	21tb-szzghfile.cdn
+
+; 2018-01-31
+ssl		IN	A	122.14.197.32
+
+; 2018-01-04
+;test	IN	CNAME	366a0b6fc6419bee.cdn.jiashule.com.
+test		IN	CNAME	84f6a47c8d5dbc4e.cdn.jiashule.com.
+
+shaohongl3	IN	CNAME	e74b2aa418997f61.cdn.jiashule.com.
+
+verify		IN	TXT	("0b39aa2bbac589eebc1b89f2b57bd12f")
+
+
+; 2018-01-29 for 'WAF' 
+tbc		IN	CNAME	7bb00ba4d641d990.cdn.jiashule.com.
+shaohongl2	IN	CNAME	30fb1e73ad5a325c.cdn.jiashule.com.
+
+whqtest		IN	CNAME	cd6335c29bf38e12.cdn.jiashule.com.
+
+; 2018-04-27 for https '21tb-video.21tb.com'
+21tb-video	IN	CNAME	21tb-video.21tb.com.w.alikunlun.com.
+
+; 2018-04-27 added by Jiang Zhifang
+; 预发云防护环境
+safeyufa	IN	CNAME	302fd55c79171056.cdn.jiashule.com.

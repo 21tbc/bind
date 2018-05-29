@@ -1,0 +1,20 @@
+include "acl/cn_1300.acl";
+include "acl/cn_3300.acl";
+include "acl/cn_5300.acl";
+include "acl/cn_7300.acl";
+include "acl/cn_9300.acl";
+    
+view "cn_5300" {
+    match-clients { cn_5300; cn_1300; cn_3300; cn_7300; cn_9300; };
+    include "zone/default.zone";
+    
+    zone "cdn.cneln.net" in {
+        type master;
+        file "zone/cdn/cn_5300/cdn.cneln.net.db";
+    };
+
+    zone "cdn.21tb.com" in {
+        type master;
+        file "zone/cdn/cn_5300/cdn.21tb.com.db";
+    };
+};
