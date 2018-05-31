@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025350       ; Serial
+                2017025355       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -194,7 +194,8 @@ shaohongl3	IN	CNAME	e74b2aa418997f61.cdn.jiashule.com.
 
 verify		IN	TXT	("0b39aa2bbac589eebc1b89f2b57bd12f")
 
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; for WAF
 ; 2018-01-29 for 'WAF' 
 tbc		IN	CNAME	7bb00ba4d641d990.cdn.jiashule.com.
 shaohongl2	IN	CNAME	30fb1e73ad5a325c.cdn.jiashule.com.
@@ -210,3 +211,7 @@ safeyufa	IN	CNAME	302fd55c79171056.cdn.jiashule.com.
 
 ; 2018-05-31 added by Jiang Zhifang
 canoncba	IN	CNAME	aae53a9e11eff34f.cdn.jiashule.com.
+
+; 2018-05-31 added by Jiang Zhifang
+testdengbao	IN	CNAME	9c2178d4d3c1d8d3.cdn.jiashule.com.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
