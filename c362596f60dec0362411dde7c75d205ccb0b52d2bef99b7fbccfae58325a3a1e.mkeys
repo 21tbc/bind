@@ -1,13 +1,13 @@
 $ORIGIN .
 $TTL 0	; 0 seconds
 @			IN SOA	. . (
-				2029       ; serial
+				2030       ; serial
 				0          ; refresh (0 seconds)
 				0          ; retry (0 seconds)
 				0          ; expire (0 seconds)
 				0          ; minimum (0 seconds)
 				)
-			KEYDATA	20180601151421 20171103034150 19700101000000 257 3 8 (
+			KEYDATA	20180601161421 20171103034150 19700101000000 257 3 8 (
 				AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQ
 				bSEW0O8gcCjFFVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh
 				/RStIoO8g0NfnfL2MTJRkxoXbfDaUeVPQuYEhg37NZWA
@@ -17,9 +17,9 @@ $TTL 0	; 0 seconds
 				Yl7OyQdXfZ57relSQageu+ipAdTTJ25AsRTAoub8ONGc
 				LmqrAmRLKBP1dfwhYB4N7knNnulqQxA+Uk1ihz0=
 				) ; KSK; alg = RSASHA256; key id = 19036
-				; next refresh: Fri, 01 Jun 2018 15:14:21 GMT
+				; next refresh: Fri, 01 Jun 2018 16:14:21 GMT
 				; trusted since: Fri, 03 Nov 2017 03:41:50 GMT
-			KEYDATA	20180601151421 20171103034150 19700101000000 257 3 8 (
+			KEYDATA	20180601161421 20171103034150 19700101000000 257 3 8 (
 				AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTO
 				iW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN
 				7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5
@@ -29,5 +29,5 @@ $TTL 0	; 0 seconds
 				A4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws
 				9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=
 				) ; KSK; alg = RSASHA256; key id = 20326
-				; next refresh: Fri, 01 Jun 2018 15:14:21 GMT
+				; next refresh: Fri, 01 Jun 2018 16:14:21 GMT
 				; trusted since: Fri, 03 Nov 2017 03:41:50 GMT
