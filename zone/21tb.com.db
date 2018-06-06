@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025360       ; Serial
+                2017025365       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -217,4 +217,7 @@ testdengbao	IN	CNAME	9c2178d4d3c1d8d3.cdn.jiashule.com.
 
 ; 2018-06-05 added by Jiang Zhifang
 zurich		IN	CNAME	98e83031ccc3feb6.cdn.jiashule.com.
+
+; 2018-06-06 added by Jiang Zhifang
+senior		IN	CNAME	860b88e21ee9a8b8.cdn.jiashule.com.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
