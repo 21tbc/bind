@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025365       ; Serial
+                2017025370       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -152,6 +152,7 @@ piwik	IN	CNAME	mainsite.cdn
 
 ; added by Jiang Zhifang 2017-03-13 for "Guangdong YiDong"
 21tb-gmccfile	IN	A	183.230.82.10
+gmcc		IN	A	120.198.246.155
 
 ; "zj-demo" and "21tb-harvest" are added by Jiang Zhifang 2017-05-19 16:18
 zj-demo		IN	A	123.103.18.40
