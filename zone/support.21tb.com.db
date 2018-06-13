@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2014121366       ; Serial
+                2014121566       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -26,6 +26,7 @@ monitor	IN	A	122.14.197.4
 perform	IN	A	222.73.189.57
 perf2	IN	A	222.73.189.57
 edm	IN	A	122.14.197.4
+course	IN	A	219.153.71.168
 
 default._domainkey.support.21tb.com.	IN	TXT	( "v=DKIM1; k=rsa; "
 	  "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOJGzSZNImKSF8UQW9kSSWgL995jAY003qB/8RH0Gi1XUjFdlzG2ATldHhPNXpWeu/2rTsRzqIUdhiglVpheuPqerXCF7NGkUF3xtO0bQlx5Kpvy+TkR7yzJ5ruHml5AXOLC2QOY4BORAoEsW80j0ajWVXFzLZkZ/IHZjR9p6agwIDAQAB" )
