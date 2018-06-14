@@ -48,6 +48,11 @@ zone "support.21tb.com" in {
     file "zone/support.21tb.com.db";
 };
 
+zone "news.21tb.com" in {
+    type master;
+    file "zone/news.21tb.com.db";
+};
+
 zone "list.21tb.com" in {
     type master;
     file "zone/list.21tb.com.db";

@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025375       ; Serial
+                2017025575       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -13,6 +13,7 @@ support	IN  NS      21tb-ns1.cneln.net.
 training	IN  NS      21tb-ns1.cneln.net.
 vketool	IN  NS      21tb-ns1.cneln.net.
 public	IN  NS      21tb-ns1.cneln.net.
+news	IN  NS      21tb-ns1.cneln.net.
 yfyang	IN  NS      21tb-ns1.cneln.net.
 
 21tb.com.   IN  MX  10  mx1
@@ -226,3 +227,9 @@ senior		IN	CNAME	860b88e21ee9a8b8.cdn.jiashule.com.
 ; added by Jiang Zhifang
 yufa		IN	CNAME	1a13cd36a0328ef6.cdn.jiashule.com.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+; For 'mailpanda' about 'xxx@news.21tb.com'
+k1._domainkey.news.21tb.com.	IN	CNAME	dkim.mailpanda.com.
+news.21tb.com.			IN	TXT	("v=spf1 include:_spf.mailpanda.com ~all")	
+edmtrack.news.21tb.com.		IN	CNAME	app2.mailpanda.com.

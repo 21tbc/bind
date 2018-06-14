@@ -1,0 +1,15 @@
+$TTL    3600
+
+@   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
+                2017121322       ; Serial
+                43200   ; Refresh
+                1800    ; Retry
+                2W  ; Expire
+                1200 )  ; Minimum
+
+        IN  NS      21tb-ns1.cneln.net.
+
+; For 'mailpanda' about 'xxx@news.21tb.com'
+k1._domainkey    IN      CNAME   dkim.mailpanda.com.
+@                IN      TXT     ("v=spf1 include:_spf.mailpanda.com ~all")
+edmtrack         IN      CNAME   app2.mailpanda.com.
