@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025580       ; Serial
+                2017025880       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -23,8 +23,8 @@ _imap._tcp	SRV	0 1 143 mail
 _imaps._tcp	SRV	0 1 993 mail
 _smtp._tcp	SRV	0 1 25 mail
 _smtps._tcp	SRV	0 1 465 mail
-default._domainkey.21tb.com.    IN  TXT ( "v=DKIM1; k=rsa; "
-      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDq05m7h/7eSMNkmW7UsObP5fu6iFKMG+9dfc3tF4hZaAen5NGnUeEjZ7xaaoeTvBFkamGlov0LOLau+hJJ0ad+vVzviOP4Gu/bUxKRrgjs5rTEr4mhSwSEY9EneUKTlUIHJ/pCwduoa86tQMOg0iiButWkKylz4n4r94j9mJ081wIDAQAB" )
+default._domainkey	IN	TXT	( "v=DKIM1; k=rsa; "
+	  "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDq8jo1Yc4V56Zsj0EU+zxwvIv6f1Xja4PLWn4OLNvzV4UUE65Bhqd4Z4GPl3mOutxRAx3Nyl7xSZDBoRR0mg4PckipG2BLgmQZJG8vRoARgH+D34Uw0coHSdwGTrA/f0nfdfTOn0iFbVwSkOBpdrp061qbvXWhoowuaLrpGx1w8QIDAQAB" )  ; ----- DKIM key default for 21tb.com
 @	IN	TXT	("v=spf1 ip4:122.14.197.4 ip4:122.14.197.5 -all")
 
 mail	IN	A	122.14.197.4
