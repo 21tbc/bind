@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-        2017021795       ; Serial
+        2017023795       ; Serial
         43200   ; Refresh
         1800    ; Retry
         2W  ; Expire
@@ -93,3 +93,5 @@ demo	IN	A	122.14.197.4
 21tb-filedx	IN	CNAME	21tb-file3.cdn
 qihangedu	IN	CNAME	21tb-file3.cdn
 axatp	IN	A	123.103.18.6
+
+wl	IN	A	219.153.71.168
