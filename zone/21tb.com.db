@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025885       ; Serial
+                2017025890       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -177,8 +177,11 @@ jianke		IN	CNAME	idv0owq.qiniudns.com.
 jiankeh5		IN	A	123.103.18.6
 
 ; 2017-11-21 Jiang Zhifang
-21tb-convert3	IN	CNAME	21tb-convert3.cdn
-21tb-convert5	IN	CNAME	21tb-convert5.cdn
+;21tb-convert3	IN	CNAME	21tb-convert3.cdn
+;21tb-convert5	IN	CNAME	21tb-convert5.cdn
+; 2018-07-02 Jiang Zhifang
+21tb-convert3	IN	A	222.180.163.131
+21tb-convert5	IN	A	222.180.163.133
 
 ; 2017-12-04 Jiang Zhifang
 szzgh		IN	A	122.14.197.44
