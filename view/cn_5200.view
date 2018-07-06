@@ -1,0 +1,16 @@
+include "acl/cn_5200.acl";
+    
+view "cn_5200" {
+    match-clients { cn_5200; };
+    include "zone/default.zone";
+    
+    zone "cdn.cneln.net" in {
+        type master;
+        file "zone/cdn/cn_5200/cdn.cneln.net.db";
+    };
+
+    zone "cdn.21tb.com" in {
+        type master;
+        file "zone/cdn/cn_5200/cdn.21tb.com.db";
+    };
+};
