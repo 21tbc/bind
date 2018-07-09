@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2016122375       ; Serial
+                2016122380       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -21,8 +21,8 @@ mainsite	IN	TXT	 "cn_mainsite_5300"
 ;21tb-file3  IN A  222.180.163.131
 21tb-file3      IN      TXT      "cn_21tb-file3_5300"
 
-file3-upload  IN A  183.230.82.2
-;file3-upload  IN A  222.180.163.131
+;file3-upload  IN A  183.230.82.2
+file3-upload  IN A  222.180.163.131
 file3-upload      IN      TXT      "cn_file3-upload_5300"
 
 ;2017-11-21 Jiang Zhifang
@@ -34,16 +34,16 @@ file3-upload      IN      TXT      "cn_file3-upload_5300"
 ;21tb-file4  IN A  222.180.163.132
 21tb-file4	IN	TXT	 "cn_21tb-file4_5300"
 
-file4-upload  IN A  183.230.82.2
-;file4-upload  IN A  222.180.163.132
+;file4-upload  IN A  183.230.82.2
+file4-upload  IN A  222.180.163.132
 file4-upload	IN	TXT	 "cn_file4-upload_5300"
 
 21tb-file5  IN A  183.230.82.3
 ;21tb-file5  IN A  222.180.163.133
 21tb-file5	IN	TXT	 "cn_21tb-file5_5300"
 
-file5-upload  IN A  183.230.82.3
-;file5-upload  IN A  222.180.163.133
+;file5-upload  IN A  183.230.82.3
+file5-upload  IN A  222.180.163.133
 file5-upload	IN	TXT	 "cn_file5-upload_5300"
 
 ; 2017-11-21 Jiang Zhifang
