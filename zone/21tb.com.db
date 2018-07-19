@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025890       ; Serial
+                2017025895       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -30,6 +30,7 @@ default._domainkey	IN	TXT	( "v=DKIM1; k=rsa; "
 mail	IN	A	122.14.197.4
 ; "21tb-kcjy" is added by Jiang Zhifang 2017-05-03
 21tb-kcjy    IN      CNAME   mail
+course-dl    IN      CNAME   mail
 imap    IN      CNAME   mail
 smtp    IN      CNAME   mail
 imaps    IN      CNAME   mail
