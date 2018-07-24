@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025915       ; Serial
+                2017025925       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -15,7 +15,6 @@ vketool	IN  NS      21tb-ns1.cneln.net.
 public	IN  NS      21tb-ns1.cneln.net.
 news	IN  NS      21tb-ns1.cneln.net.
 yfyang	IN  NS      21tb-ns1.cneln.net.
-yufa	IN  NS      21tb-ns1.cneln.net.
 
 21tb.com.   IN  MX  10  mx1
 21tb.com.   IN  MX  20  mx2
@@ -50,6 +49,7 @@ tbcsvn	IN	A	101.95.155.238
 project	IN	A	120.132.36.195
 ;count	IN	A	123.103.18.69
 hongkong        IN      A       202.65.192.179
+dubboadmin-yufa	IN	A	123.103.18.69
 
 ; "www" is modified by Jiang Zhifang 2017-04-18
 ;www	IN	A	122.14.197.12
