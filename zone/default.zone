@@ -78,6 +78,11 @@ zone "yfyang.21tb.com" in {
     file "zone/yfyang.21tb.com.db";
 };
 
+zone "yufa.21tb.com" in {
+    type master;
+    file "zone/yufa.21tb.com.db";
+};
+
 zone "21tbest.com" in {
     type master;
     file "zone/21tbest.com.db";
