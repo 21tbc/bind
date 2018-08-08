@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025930       ; Serial
+                2017025940       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -151,6 +151,7 @@ piwik	IN	CNAME	mainsite.cdn
 
 ;21tb-rcpxfile	IN	A	219.153.71.163
 21tb-rcpxfile	IN	CNAME	21tb-rcpxfile.21tb.com.w.kunlunso.com.
+rcpxfile-upload IN	A	219.153.71.163
 
 ; 2017-11-21 Jiang Zhifang
 ; stop rcpx2
