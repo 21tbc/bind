@@ -1,7 +1,7 @@
 $TTL    3600
 
 @   IN SOA  21tb-ns1.cneln.net. hezitong.21tb.com.  (
-                2017025940       ; Serial
+                2017025945       ; Serial
                 43200   ; Refresh
                 1800    ; Retry
                 2W  ; Expire
@@ -240,5 +240,7 @@ carlsberg	IN	CNAME	bbca49c17d0ddb61.cdn.jiashule.com.
 xm		IN	CNAME	fa659f01f313e388.cdn.jiashule.com.
 
 tbcka-demo	IN	CNAME	e41146ebeb0ecd67.cdn.jiashule.com.
+
+grcbank		IN	CNAME	4632503883de9301.cdn.jiashule.com.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
